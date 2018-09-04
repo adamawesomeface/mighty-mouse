@@ -1,0 +1,25 @@
+{
+  "data": {
+    "homepage": {
+      "title": "Mighty Mouse",
+      "tagline": "Best in the business"
+    },
+    "footer": {
+      "copyright": "Copyright 2018 -- all rights reserved"
+    },
+    "pages": [
+      {
+        "id": "about",
+        "title": "About",
+        "content": "this.",
+        "image": "logo.jpg"
+      },
+      {
+        "id": "contact",
+        "title": "Contact",
+        "content": "contact values",
+        "image": "logo.jpg"
+      }
+    ]
+  }
+}
