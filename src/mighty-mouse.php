@@ -4,7 +4,6 @@
     public $fields = array();
     function __construct() {
       $this->data = self::getData();
-      print_r($this->data);
     }
     public function getData(){
       $jsonData = stripslashes(file_get_contents(__DIR__ . '/data/data.json'));
