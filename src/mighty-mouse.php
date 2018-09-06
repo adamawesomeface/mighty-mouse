@@ -1,4 +1,6 @@
 <?php
+  error_reporting(E_ALL);
+ini_set('display_errors', 1);
   class MightyMouse {
     public $data   = array();
     public $fields = array();
@@ -12,7 +14,7 @@
       return $aData;
     }
     public function setData($newData){
-      $fp = fopen('data/data.json', 'w');
+      $fp = fopen(__DIR__ . '/data/data.json', 'w');
       fwrite($fp, json_encode($newData));
       fclose($fp);
       return self::getData();
